@@ -3,7 +3,7 @@ import SectionName from "../components/ui/SectionName";
 import SectionTitle from "../components/ui/SectionTitle";
 import about1 from "../assets/about1.jpg";
 import about2 from "../assets/about2.jpg";
-import badge from "../assets/badge.png";
+import badge from "../assets/badgeIcon.png";
 
 const About = () => {
   return (
