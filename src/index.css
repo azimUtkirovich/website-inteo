@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 16px;
+}
+
+@media (max-width: 1024px) {
+  section {
+    padding: 60px 16px; /* Уменьшаем вертикальные отступы на планшетах */
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 40px 12px; /* Еще больше зажимаем отступы для маленьких экранов */
+  }
+}
+
+@theme {
+  /* Цвета проекта */
+  --color-neutral-1: #2c2c2c;
+  --color-neutral-2: #565656;
+  --color-neutral-3: #848484;
+  --color-neutral-4: #d9d9d9;
+  --color-white: #fff;
+  --color-primary-1: #996830;
+  --color-primary-2: #c4a386;
+  --color-primary-3: #e5d7cb;
+
+  /* Шрифты проекта */
+  --font-family:
+    "Outfit", sans-serif; /* Переопределит дефолтный шрифт font-sans */
+  --font-second:
+    "Playfair Display", sans-serif; /* Создаст новый класс font-second */
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
